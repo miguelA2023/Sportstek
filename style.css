@@ -1,0 +1,388 @@
+/* CSS Reset */
+body, header, nav, main, footer, h1, h2, div, section, aside {
+	
+
+	
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+	background-color: #000000;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.logo {
+  color: gray;
+  font-size: 28px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #FFFFFF;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li {
+  float: left;
+}
+
+.slider {
+  width: 800px;
+  height: 400px;
+  background:url("../../../../Applications/Broncos_vs_49ers_preseason_game_at_Levi's_Stadium.jpg");
+  margin: auto;
+  animation: slide 15s infinite;
+  background-size: cover;
+}
+
+@keyframes slide { 
+  25% {
+    background: url("../../../../Applications/Broncos_vs_49ers_preseason_game_at_Levi's_Stadium.jpg");
+    background-size: cover;
+  }
+  50% {
+    background: url("../../Documents/Senior project/Images/Kobe.jpg");
+    background-size: cover;
+  }
+  75% {
+    background: url("../../Documents/Senior project/Images/16695239715809.jpg");
+    background-size: cover;
+  }
+}
+img {
+  padding: 10px;
+  padding-left: 300px;
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: gray;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 0px;
+  margin-top: 20px;
+  
+}
+
+
+h1 {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+.h3-container {
+  align-items: right;
+  align-content: right;
+  max-width: 400px;
+  margin: auto;
+  margin-right: 300px;
+  background-color: gray;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size: 17;
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+
+.second-image {
+  padding: 10px;
+  width: 110%;
+  float: left;
+  margin-top: -400px;
+  margin-left: -47px;
+}
+.h3-containers {
+  align-items: right;
+  align-content: right;
+  max-width: 400px;
+  margin: auto;
+  margin-right: 300px;
+  background-color: gray;
+  border-radius: 15px;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 20px;
+  padding-bottom: 10px
+}
+		
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.pcontainer{
+align-items: right;
+align-content: right;
+max-width: 400px;
+margin: auto;
+margin-left: 300px; 
+background-color: gray;
+border-radius: 15px;
+text-align: center;
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+margin-top: 100px;
+padding-bottom: 20px;
+overflow: auto;
+clear: both;
+}
+
+.fourcontainer{
+align-items: right;
+align-content: right;
+max-width: 400px;
+margin: auto;
+margin-left: 300px; 
+background-color: gray;
+border-radius: 15px;
+text-align: center;
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+margin-top: 50px;
+padding-bottom: 20px;
+overflow: auto;
+clear: both;
+}
+
+.fivecontainer{
+align-items: right;
+align-content: right;
+max-width: 400px;
+margin: auto;
+margin-left: 300px; 
+background-color: gray;
+border-radius: 15px;
+text-align: center;
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+margin-top: 50px;
+padding-bottom: 20px;
+overflow: auto;
+clear: both;
+}
+
+.faircontainers{
+align-items: center;
+align-content: center;
+max-width: 1000px;
+margin: auto;
+margin-left: 225px; 
+background-color: gray;
+border-radius: 15px;
+text-align: center;
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+margin-top: 50px;
+padding-bottom: 20px;
+overflow: auto;
+clear: both;
+
+}
+
+.stadiumcontainers{
+align-items: center;
+align-content: center;
+max-width: 1000px;
+margin: auto;
+margin-left: 225px; 
+background-color: gray;
+border-radius: 15px;
+text-align: center;
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+margin-top: 50px;
+padding-bottom: 20px;
+overflow: auto;
+clear: both;
+
+}
+
+.statementcontainer{
+align-items: center;
+align-content: center;
+max-width: 1000px;
+margin: auto;
+margin-left: 225px; 
+background-color: gray;
+border-radius: 15px;
+text-align: center;
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+margin-top: 20px;
+padding-bottom: 20px;
+overflow: auto;
+clear: both;
+
+}
+
+.finalcontainer{
+align-items: center;
+align-content: center;
+max-width: 1000px;
+margin: auto;
+margin-left: 225px; 
+background-color: gray;
+border-radius: 15px;
+text-align: center;
+padding-top: 20px;
+padding-right: 50px;
+padding-left: 50px;
+margin-top: 20px;
+padding-bottom: 20px;
+overflow: auto;
+clear: both;
+
+}
+
+
+.third-image{
+  
+  padding: 10px;
+  width: 110%;
+  float: right;
+  margin-top: -2950px;
+  margin-right: -600px;
+  
+}
+
+.fourth-image{
+  
+  padding: 10px;
+  width: 110%;
+  float: right;
+  margin-top: -2600px;
+  margin-right: -600px;
+  
+}
+
+.fifth-image{
+  
+  padding: 10px;
+  width: 110%;
+  float: right;
+  margin-top: -2000px;
+  margin-right: -600px;
+  
+}
+
+.sixth-image{
+  
+  padding: 10px;
+  width: 110%;
+  float: right;
+  margin-top: -1500px;
+  margin-right: -600px;
+  
+}
+
+.seventh-image{
+  
+  padding: 10px;
+  width: 110%;
+  float: right;
+  margin-top: -900px;
+  margin-right: -600px;
+  
+}
+
+.eighth-image{
+  
+  padding: 10px;
+  width: 110%;
+  float: right;
+  margin-top: -500px;
+  margin-right: -600px;
+  
+}
+
+.ninth-image{
+	width: 120%;
+	float: left;
+	margin-left: -150px;
+	padding-top: 20px;
+}
+
+.tenth-image{
+	width: 128%;
+	float: left;
+	margin-left: 410px;
+	margin-top: -449px;
+	padding-top: 2px;
+}
+
+.eleventh-image{
+	width: 178%;
+	float: left;
+	margin-left: -75px;
+	margin-top: 20px;
+	padding-top: 2px;
+}
+
+em{
+	font-size: 30px;
+}
+
+footer {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: gray;
+}
+
