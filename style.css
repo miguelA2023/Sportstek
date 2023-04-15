@@ -67,7 +67,7 @@ nav li {
 .slider {
   width: 800px;
   height: 400px;
-  background:url( "Images/Broncos_vs_49ers_preseason_game_at_Levi's_Stadium.jpg");
+  background:url( "Images/niners.jpg");
   margin: auto;
   animation: slide 15s infinite;
   background-size: cover;
@@ -75,7 +75,7 @@ nav li {
 
 @keyframes slide { 
   25% {
-    background: url("Images/Broncos_vs_49ers_preseason_game_at_Levi's_Stadium.jpg");
+    background: url("Images/niners.jpg");
     background-size: cover;
   }
   50% {
